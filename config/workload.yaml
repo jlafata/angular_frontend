@@ -24,6 +24,6 @@ spec:
         value: "dist"
   source:
     git:
-      url: <https URL for your generated project's Git repository>
+      url: https://github.com/jlafata/angular_frontend.git
       ref:
         branch: main
