@@ -1,0 +1,16 @@
+id: f339e85c-559d-4410-aaee-c6b9e0e75029
+timestamp: 2023-03-15T20:40:49Z
+username: guest
+source: TAP-GUI
+accelerator:
+  name: angular-frontend
+  source:
+    image: jltestcr.azurecr.io/tap1-5-0-36@sha256:ed4fbc0b3b587d7ba5bea97ff16e676ff5a45a59a88cabb6ceae91131e15d107
+fragments:
+  - name: tap-workload
+    source:
+      image: jltestcr.azurecr.io/tap1-5-0-36@sha256:dbf0dedb6848ad8a7704c1c19465a1ddae9039b0e63c1dd0df3e2ed9cbda6093
+options:
+  artifactId: angular-frontend
+  backendService: customer-profile-backend.namespace
+  projectName: angular-frontend
